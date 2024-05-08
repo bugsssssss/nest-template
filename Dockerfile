@@ -10,4 +10,7 @@ COPY . .
 
 EXPOSE 3000
 
-CMD [ "npm", "run", "start:dev" ]
+# ? for testing before running
+# RUN npm test
+
+CMD [ "npm", "run", "build" ]
