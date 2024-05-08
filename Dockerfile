@@ -13,4 +13,4 @@ EXPOSE 3000
 # ? for testing before running
 # RUN npm test
 
-CMD [ "npm", "run", "build" ]
+CMD [ "npm", "run", "start:dev" ]
